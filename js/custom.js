@@ -1,11 +1,4 @@
-/**
-	Template Name 	 : ClinicMaster
-	Author			 : DexignZone
-	File Name	     : custom.js
-	Author Portfolio : https://themeforest.net/user/dexignzone
-	
-	Core script to handle the entire theme and core functions
-**/
+
 
 var ClinicMaster = function () {
 	'use strict';
@@ -732,11 +725,6 @@ var ClinicMaster = function () {
 			}
 		});
 	}
-	
-	var handleSupport = function(){
-		var support = '<script id="DZScript" src="https://dzassets.s3.amazonaws.com/w3-global-2.0.js?token=W-1a50003fa39424f41645367abf69164a"></script>';
-		jQuery('body').append(support);
-	}
 
 	var handleImageTooltip = function(){
 		if (screenWidth > 991) {
@@ -881,7 +869,6 @@ var ClinicMaster = function () {
 			handleComingSoonCounter();
 			navScroller();
 			dzLoader();
-			handleSupport();
 		},
 
 		load: function () {

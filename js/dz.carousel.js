@@ -1,9 +1,3 @@
-/**
-	Template Name 	 : ClinicMaster
-	Author			 : DexignZone
-	
-	Core script to handle the entire theme and core functions
-**/
 
 var ClinicMasterCarousel = function(){
 	
