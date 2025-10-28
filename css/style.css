@@ -17364,11 +17364,11 @@ section {
   right: 10%;
   top: 5%;
   z-index: 0;
-  color: #191919;
+  color: #6b6b6b;
 }
 @media only screen and (max-width: 1540px) {
   .bg-text.position2::after {
-    top: -5%;
+    top: 5%;
     right: 25%;
     font-size: 100px;
   }
