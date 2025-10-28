@@ -17369,8 +17369,14 @@ section {
 @media only screen and (max-width: 1540px) {
   .bg-text.position2::after {
     top: 0%;
-    right: 25%;
-    font-size: 100px;
+  }
+  .bg-line1{
+    display: none;
+  }
+  .bg-text.position3::after{
+    right: 0%;
+    font-size: 140px;
+
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -17395,6 +17401,7 @@ section {
   right: 2%;
   top: 0%;
   z-index: 1;
+  color: #6b6b6b;
 }
 @media only screen and (max-width: 1480px) {
   .bg-text.position3::after {
