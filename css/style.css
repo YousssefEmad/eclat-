@@ -17361,14 +17361,16 @@ section {
 }
 .bg-text.position2::after {
   left: auto;
-  right: 0;
-  top: 7%;
+  right: 10%;
+  top: 5%;
   z-index: 0;
   color: #191919;
 }
-@media only screen and (max-width: 1480px) {
+@media only screen and (max-width: 1540px) {
   .bg-text.position2::after {
     top: -5%;
+    right: 25%;
+    font-size: 100px;
   }
 }
 @media only screen and (max-width: 1199px) {
