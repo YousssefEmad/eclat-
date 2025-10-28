@@ -17368,7 +17368,7 @@ section {
 }
 @media only screen and (max-width: 1540px) {
   .bg-text.position2::after {
-    top: 5%;
+    top: 0%;
     right: 25%;
     font-size: 100px;
   }
